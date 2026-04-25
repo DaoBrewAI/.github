@@ -14,13 +14,15 @@
 
 ---
 
-## What this is
+## 🌿 What this is
 
-Most "wellness" stops at *interpretation* — here is your HRV, here is your stress score, good luck. We close the loop.
+Most "wellness" stops at *interpretation* — here is your HRV, here is your stress score, good luck. **We close the loop.**
 
-DaoBrew reads your wearable, classifies your current stress pattern, and runs a 3-minute music-guided breathing session that brings your nervous system back online. Detect → Intervene → Measure. No mantras, no narrators, no tutorials.
+DaoBrew reads your wearable, classifies your current stress pattern, and runs a 3-minute music-guided breathing session that brings your nervous system back online.
 
-Wearables tell you *how you are*. We tell your body *how to come back*.
+**Detect → Intervene → Measure.** No mantras, no narrators, no tutorials.
+
+> Wearables tell you *how you are*. We tell your body *how to come back*.
 
 ---
 
@@ -71,8 +73,6 @@ Building DaoBrew required AI tooling that didn't exist. Rather than keep it inte
 ---
 
 <div align="center">
-
-**[ [daobrew.io](http://daobrew.io) ](https://daobrew.io)** · **[ TestFlight ](#)** · **[ npm ](https://www.npmjs.com/package/@daobrew/wellness-mcp)**
 
 *If your nervous system runs hot, you are the user.*
 
