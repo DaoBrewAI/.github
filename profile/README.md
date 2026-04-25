@@ -8,9 +8,9 @@
 
 &nbsp;
 
-[![npm](https://img.shields.io/npm/v/@daobrew/wellness-mcp.svg?label=%40daobrew%2Fwellness-mcp&color=2d6a4a&style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/@daobrew/wellness-mcp)
-[![License](https://img.shields.io/badge/license-MIT-2d6a4a.svg?style=for-the-badge)](LICENSE)
-[![iOS](https://img.shields.io/badge/iOS-TestFlight%20beta-0a1410.svg?style=for-the-badge&logo=apple&logoColor=white)](#)
+[![DaoBrew MCP](https://img.shields.io/badge/DaoBrew%20MCP%20%E2%86%92-1a1815?style=for-the-badge&labelColor=1a1815)](https://github.com/DaoBrewAI/daobrew-wellness-mcp)
+&nbsp;
+[![daobrew.app](https://img.shields.io/badge/daobrew.app%20%E2%86%92-c4543a?style=for-the-badge&labelColor=c4543a)](https://daobrew.app)
 
 </div>
 
