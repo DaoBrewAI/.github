@@ -1,20 +1,22 @@
 <div align="center">
 
-# DaoBrew AI
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
+  <img alt="DaoBrew AI — Stress, intervened, in three minutes." src="./assets/banner-light.svg" width="100%">
+</picture>
 
-### **Stress, intervened — in three minutes.**
+&nbsp;
 
-道 · brewed for the modern operator
-
-[![npm](https://img.shields.io/npm/v/@daobrew/wellness-mcp.svg)](https://www.npmjs.com/package/@daobrew/wellness-mcp)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![TestFlight](https://img.shields.io/badge/iOS-TestFlight%20beta-black.svg)](#)
+[![npm](https://img.shields.io/npm/v/@daobrew/wellness-mcp.svg?label=%40daobrew%2Fwellness-mcp&color=2d6a4a&style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/@daobrew/wellness-mcp)
+[![License](https://img.shields.io/badge/license-MIT-2d6a4a.svg?style=for-the-badge)](LICENSE)
+[![iOS](https://img.shields.io/badge/iOS-TestFlight%20beta-0a1410.svg?style=for-the-badge&logo=apple&logoColor=white)](#)
 
 </div>
 
----
+&nbsp;
 
-## 🌿 What this is
+## 🌿 &nbsp;What this is
 
 Most "wellness" stops at *interpretation* — here is your HRV, here is your stress score, good luck. **We close the loop.**
 
@@ -24,15 +26,15 @@ DaoBrew reads your wearable, classifies your current stress pattern, and runs a 
 
 > Wearables tell you *how you are*. We tell your body *how to come back*.
 
----
+&nbsp;
 
-## 🫁 The Core — Music-Guided Resonance Breathing
+## 🫁 &nbsp;The core — music-guided resonance breathing
 
 > The active ingredient in stress relief is breathing at 4–7 breaths per minute, sustained for five minutes. Everything else exists to make that happen — without you having to think about it.
 
 Music-guided resonance breathing is the entire product. The music's volume swells pace your inhale and exhale at your personal resonance frequency. With headphones, a theta binaural layer fades in. Apple Watch streams your heart rate and the session re-tunes itself mid-stream. By the time the music fades out, your HRV has measurably shifted.
 
-**Why this approach, and not the alternatives:**
+**Why this approach, not the alternatives:**
 
 - Generic meditation apps are content libraries. We are an intervention engine. Calm and Headspace can't tell you what to do *right now, given your current state* — we can.
 - Wearables (WHOOP, Oura, Apple Watch) are sensors. We are the action layer they were missing. We complement them; we don't compete.
@@ -40,15 +42,39 @@ Music-guided resonance breathing is the entire product. The music's volume swell
 
 The session is 3 minutes because that is the gap between async agent runs, between meetings, between the email you just got and the one you're about to send. Recovery infrastructure has to fit the 2026 high performer — not the other way around.
 
----
+&nbsp;
 
-## 🔓 Open Source — Giving Back to the Community
+## 🔓 &nbsp;Open source
 
 We ship the engine three ways: a consumer iOS app, a B2B SDK for hardware partners, and **everything that benefits the developer community, in the open.**
 
-### `@daobrew/wellness-mcp` — first wellness MCP server in production
+<table>
+  <thead>
+    <tr>
+      <th align="left">Repository</th>
+      <th align="left">What it is</th>
+      <th align="left">Stack</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <a href="https://github.com/DaoBrewAI/daobrew-wellness-mcp"><b><code>daobrew-wellness-mcp</code></b></a>
+      </td>
+      <td>The first wellness MCP server in production. Lets any agent — Claude Code, Cursor, Windsurf, Cline — detect stress and trigger a recovery session without leaving the editor.</td>
+      <td><sub><code>TypeScript · MCP</code></sub></td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/DaoBrewAI/building-in-public"><b><code>building-in-public</code></b></a>
+      </td>
+      <td>Claude Skills we built for ourselves and shipped publicly: <code>bazi-reader</code>, <code>design-language-translator</code>, with more landing as they prove out.</td>
+      <td><sub><code>Claude Skills</code></sub></td>
+    </tr>
+  </tbody>
+</table>
 
-The same engine that powers the App, exposed as an MCP server. Any agent — Claude Code, Cursor, Windsurf, Cline — can detect when its user is stressed and trigger a recovery session without leaving the editor.
+### `@daobrew/wellness-mcp` &nbsp;— &nbsp;the agent-native action layer
 
 ```bash
 npm install -g @daobrew/wellness-mcp
@@ -56,7 +82,7 @@ npm install -g @daobrew/wellness-mcp
 
 When Claude Code sees you've been debugging for 90 minutes and your HRV just dropped, the right answer is for the agent to call a wellness tool — not to suggest you "take a break." MCP governance moved to the Linux Foundation in late 2025; this is the architecture going forward. We were the first wellness company to ship there.
 
-### Claude Skills we built and shipped
+### Claude Skills &nbsp;— &nbsp;tooling that didn't exist, packaged and given back
 
 Building DaoBrew required AI tooling that didn't exist. Rather than keep it internal, we package them as installable [Claude Skills](https://docs.claude.com/en/docs/build-with-claude/agent-skills):
 
@@ -68,12 +94,8 @@ Building DaoBrew required AI tooling that didn't exist. Rather than keep it inte
 
 What helps the AI-native developer ecosystem stay healthy belongs in the commons. The prescription engine, the personal baseline calibration, and the proprietary pulse models trained on 200K+ annotated sessions stay closed. The line is intentional and clear.
 
----
+&nbsp;
 
 <div align="center">
-
-**All open-source work →** [`DaoBrewAI/building-in-public`](https://github.com/DaoBrewAI/building-in-public)
-
-*If your nervous system runs hot, you are the user.*
-
+  <sub><i>If your nervous system runs hot, you are the user.</i></sub>
 </div>

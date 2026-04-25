@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" preserveAspectRatio="xMidYMid slice" role="img" aria-labelledby="title">
+  <title id="title">DaoBrew AI — Stress, intervened, in three minutes.</title>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7f3e8"/>
+      <stop offset="55%" stop-color="#ecefdf"/>
+      <stop offset="100%" stop-color="#f7f3e8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="62%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#5fa074" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#5fa074" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1f4d36" stop-opacity="0"/>
+      <stop offset="22%" stop-color="#2d6a4a" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#1f4d36" stop-opacity="0.9"/>
+      <stop offset="78%" stop-color="#2d6a4a" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#1f4d36" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1f4d36" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#1f4d36" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#glow)"/>
+
+  <g stroke-linecap="round" fill="none">
+    <path d="M -20 160 Q 180 70 380 160 T 780 160 T 1220 160"
+          stroke="url(#wave)" stroke-width="2.6"/>
+    <path d="M -20 160 Q 140 100 280 160 T 560 160 T 840 160 T 1120 160 T 1220 160"
+          stroke="url(#wave)" stroke-width="1.4" opacity="0.5"/>
+    <path d="M -20 160 Q 240 200 480 160 T 960 160 T 1220 160"
+          stroke="url(#wave)" stroke-width="1" opacity="0.32"/>
+  </g>
+
+  <text x="120" y="218"
+        font-family="'Songti SC', 'STSong', 'Noto Serif SC', 'Source Han Serif SC', 'SimSun', serif"
+        font-size="220" fill="#1f4d36" opacity="0.92" font-weight="400">道</text>
+
+  <line x1="350" y1="115" x2="350" y2="225" stroke="#1f4d36" stroke-width="1" opacity="0.4"/>
+
+  <text x="380" y="165"
+        font-family="'Cormorant Garamond', 'EB Garamond', 'Playfair Display', Georgia, serif"
+        font-size="62" fill="#0a1410" font-weight="500" letter-spacing="3.5">DaoBrew AI</text>
+
+  <text x="382" y="210"
+        font-family="'JetBrains Mono', 'IBM Plex Mono', 'SF Mono', ui-monospace, monospace"
+        font-size="15" fill="#1f4d36" letter-spacing="4.5" font-weight="400">
+    STRESS, INTERVENED — IN THREE MINUTES.
+  </text>
+
+  <line x1="382" y1="232" x2="490" y2="232" stroke="url(#rule)" stroke-width="1.2"/>
+
+  <text x="40" y="40"
+        font-family="'JetBrains Mono', 'IBM Plex Mono', monospace"
+        font-size="10" fill="#1f4d36" letter-spacing="2" opacity="0.6">道 · DAOBREW · 2026</text>
+  <text x="1160" y="40" text-anchor="end"
+        font-family="'JetBrains Mono', 'IBM Plex Mono', monospace"
+        font-size="10" fill="#1f4d36" letter-spacing="2" opacity="0.6">RESONANCE · 6 BPM</text>
+  <text x="40" y="290"
+        font-family="'JetBrains Mono', 'IBM Plex Mono', monospace"
+        font-size="10" fill="#1f4d36" letter-spacing="2" opacity="0.5">DETECT → INTERVENE → MEASURE</text>
+  <text x="1160" y="290" text-anchor="end"
+        font-family="'JetBrains Mono', 'IBM Plex Mono', monospace"
+        font-size="10" fill="#1f4d36" letter-spacing="2" opacity="0.5">MCP · iOS · SDK</text>
+</svg>
