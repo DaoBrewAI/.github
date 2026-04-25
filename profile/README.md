@@ -56,17 +56,15 @@ npm install -g @daobrew/wellness-mcp
 
 When Claude Code sees you've been debugging for 90 minutes and your HRV just dropped, the right answer is for the agent to call a wellness tool — not to suggest you "take a break." MCP governance moved to the Linux Foundation in late 2025; this is the architecture going forward. We were the first wellness company to ship there.
 
-→ [npm](https://www.npmjs.com/package/@daobrew/wellness-mcp) · [PulseMCP](https://www.pulsemcp.com) · [Smithery](https://smithery.ai)
-
 ### Claude Skills we built and shipped
 
-Building DaoBrew required AI tooling that didn't exist. Rather than keep it internal, we package it as installable [Claude Skills](https://docs.claude.com/en/docs/build-with-claude/agent-skills):
+Building DaoBrew required AI tooling that didn't exist. Rather than keep it internal, we package them as installable [Claude Skills](https://docs.claude.com/en/docs/build-with-claude/agent-skills):
 
-- **`bazi-reader`** — accurate Four Pillars chart generation, including monthly forecast. Handles edge cases (solar terms, zi-hour rollover) that LLMs alone get wrong.
-- **`design-language-translator`** — converts founder-grade visual intent ("make it more 禅", "this feels off") into a precise designer brief, bilingual EN↔CN.
+- **[`bazi-reader`](https://github.com/DaoBrewAI/building-in-public/blob/main/bazi-reader.skill)** — accurate Four Pillars chart generation, including monthly forecast. Handles edge cases (solar terms, zi-hour rollover) that LLMs alone get wrong.
+- **[`design-language-translator`](https://github.com/DaoBrewAI/building-in-public/blob/main/design-language-translator.skill)** — converts founder-grade visual intent ("make it more 禅", "this feels off") into a precise designer brief, bilingual EN↔CN.
 - **More planned** — pulse waveform feature extraction, TCM stress pattern classification reference implementations.
 
-→ [`/skills`](./skills)
+→ [`DaoBrewAI/building-in-public`](https://github.com/DaoBrewAI/building-in-public)
 
 **Where we draw the line.** What helps the AI-native developer ecosystem stay healthy belongs in the commons. The prescription engine, the personal baseline calibration, and the proprietary pulse models trained on 200K+ annotated sessions stay closed. The line is intentional and clear.
 
