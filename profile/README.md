@@ -64,13 +64,15 @@ Building DaoBrew required AI tooling that didn't exist. Rather than keep it inte
 - **[`design-language-translator`](https://github.com/DaoBrewAI/building-in-public/blob/main/design-language-translator.skill)** — converts founder-grade visual intent ("make it more 禅", "this feels off") into a precise designer brief, bilingual EN↔CN.
 - **More planned** — pulse waveform feature extraction, TCM stress pattern classification reference implementations.
 
-→ [`DaoBrewAI/building-in-public`](https://github.com/DaoBrewAI/building-in-public)
+### Where we draw the line
 
-**Where we draw the line.** What helps the AI-native developer ecosystem stay healthy belongs in the commons. The prescription engine, the personal baseline calibration, and the proprietary pulse models trained on 200K+ annotated sessions stay closed. The line is intentional and clear.
+What helps the AI-native developer ecosystem stay healthy belongs in the commons. The prescription engine, the personal baseline calibration, and the proprietary pulse models trained on 200K+ annotated sessions stay closed. The line is intentional and clear.
 
 ---
 
 <div align="center">
+
+**All open-source work →** [`DaoBrewAI/building-in-public`](https://github.com/DaoBrewAI/building-in-public)
 
 *If your nervous system runs hot, you are the user.*
 
