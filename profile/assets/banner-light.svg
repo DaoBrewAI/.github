@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" width="1200" height="460" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="title">
-  <title id="title">DaoBrew AI — Causal Task Manager</title>
+  <title id="title">DaoBrew AI — Body signals, work loops, task packages</title>
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#fbf3df"/>
@@ -17,15 +17,15 @@
 
   <text x="80" y="168"
         font-family="'Tiempos Headline', 'Recoleta', 'Source Serif Pro', 'Playfair Display', Georgia, serif"
-        font-size="92" fill="#1a1815" font-weight="700" letter-spacing="-2">Causal Task</text>
+        font-size="92" fill="#1a1815" font-weight="700" letter-spacing="-2">DaoBrew AI</text>
 
   <text x="80" y="268"
         font-family="'Tiempos Headline', 'Recoleta', 'Source Serif Pro', 'Playfair Display', Georgia, serif"
-        font-size="92" fill="#1a1815" font-weight="700" letter-spacing="-2">Manager</text>
+        font-size="72" fill="#1a1815" font-weight="700" letter-spacing="-1.5">Causal Task Manager</text>
 
   <text x="80" y="372"
         font-family="'Tiempos Headline', 'Recoleta', 'Source Serif Pro', 'Playfair Display', Georgia, serif"
-        font-size="58" fill="#c4543a" font-weight="700" font-style="italic" letter-spacing="-1">the task your body keeps flagging</text>
+        font-size="50" fill="#c4543a" font-weight="700" font-style="italic" letter-spacing="-1">the work your body keeps flagging</text>
 
   <g opacity="0.22">
     <circle cx="930" cy="230" r="154" fill="none" stroke="#1a1815" stroke-width="3"/>
