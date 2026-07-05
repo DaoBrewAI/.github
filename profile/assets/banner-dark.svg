@@ -1,28 +1,35 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" width="1200" height="460" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="title">
-  <title id="title">Your wearable knows you're stressed. Then what?</title>
+  <title id="title">DaoBrew AI — Causal Task Manager</title>
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#1c1916"/>
-      <stop offset="100%" stop-color="#14110e"/>
+      <stop offset="58%" stop-color="#15120f"/>
+      <stop offset="100%" stop-color="#0f0d0b"/>
     </linearGradient>
   </defs>
 
   <rect width="1200" height="460" fill="url(#bg)"/>
 
-  <line x1="80" y1="60" x2="116" y2="60" stroke="#a89e8a" stroke-width="1.5" opacity="0.65"/>
+  <line x1="80" y1="60" x2="116" y2="60" stroke="#a89e8a" stroke-width="1.5" opacity="0.72"/>
   <text x="130" y="65"
         font-family="'JetBrains Mono', 'IBM Plex Mono', 'SF Mono', ui-monospace, monospace"
-        font-size="13" fill="#a89e8a" letter-spacing="4.5" font-weight="500">DETECT &#183; INTERVENE &#183; MEASURE</text>
+        font-size="13" fill="#a89e8a" letter-spacing="4.5" font-weight="600">BODY SIGNALS &#8594; WORK LOOPS &#8594; TASK PACKAGES</text>
 
-  <text x="80" y="200"
-        font-family="'Tiempos Headline', 'Recoleta', 'Source Serif Pro', 'Playfair Display', 'Roboto Slab', Georgia, 'Times New Roman', serif"
-        font-size="94" fill="#f3ead4" font-weight="700" letter-spacing="-2">Your wearable knows</text>
+  <text x="80" y="168"
+        font-family="'Tiempos Headline', 'Recoleta', 'Source Serif Pro', 'Playfair Display', Georgia, serif"
+        font-size="92" fill="#f3ead4" font-weight="700" letter-spacing="-2">Causal Task</text>
 
-  <text x="80" y="300"
-        font-family="'Tiempos Headline', 'Recoleta', 'Source Serif Pro', 'Playfair Display', 'Roboto Slab', Georgia, 'Times New Roman', serif"
-        font-size="94" fill="#f3ead4" font-weight="700" letter-spacing="-2">you're stressed.</text>
+  <text x="80" y="268"
+        font-family="'Tiempos Headline', 'Recoleta', 'Source Serif Pro', 'Playfair Display', Georgia, serif"
+        font-size="92" fill="#f3ead4" font-weight="700" letter-spacing="-2">Manager</text>
 
-  <text x="80" y="404"
-        font-family="'Tiempos Headline', 'Recoleta', 'Source Serif Pro', 'Playfair Display', 'Roboto Slab', Georgia, 'Times New Roman', serif"
-        font-size="94" fill="#e07759" font-weight="700" font-style="italic" letter-spacing="-2">Then what?</text>
+  <text x="80" y="372"
+        font-family="'Tiempos Headline', 'Recoleta', 'Source Serif Pro', 'Playfair Display', Georgia, serif"
+        font-size="58" fill="#e07759" font-weight="700" font-style="italic" letter-spacing="-1">the task your body keeps flagging</text>
+
+  <g opacity="0.28">
+    <circle cx="930" cy="230" r="154" fill="none" stroke="#f3ead4" stroke-width="3"/>
+    <circle cx="930" cy="230" r="94" fill="none" stroke="#e07759" stroke-width="3"/>
+    <path d="M760 230 C815 170, 872 170, 930 230 S1048 290, 1100 230" fill="none" stroke="#f3ead4" stroke-width="3"/>
+  </g>
 </svg>

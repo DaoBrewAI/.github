@@ -3,99 +3,128 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
-  <img alt="DaoBrew AI — Stress, intervened, in three minutes." src="./assets/banner-light.svg" width="100%">
+  <img alt="DaoBrew AI — Causal Task Manager" src="./assets/banner-light.svg" width="100%">
 </picture>
 
 &nbsp;
 
-[![DaoBrew MCP](https://img.shields.io/badge/DaoBrew%20MCP%20%E2%86%92-1a1815?style=for-the-badge&labelColor=1a1815)](https://github.com/DaoBrewAI/daobrew-wellness-mcp)
+[![daobrew.app](https://img.shields.io/badge/daobrew.app%20%E2%86%92-1a1815?style=for-the-badge&labelColor=1a1815)](https://daobrew.app)
 &nbsp;
-[![daobrew.app](https://img.shields.io/badge/daobrew.app%20%E2%86%92-c4543a?style=for-the-badge&labelColor=c4543a)](https://daobrew.app)
+[![Building in Public](https://img.shields.io/badge/building--in--public%20%E2%86%92-c4543a?style=for-the-badge&labelColor=c4543a)](https://github.com/DaoBrewAI/building-in-public)
+&nbsp;
+[![DaoBrew MCP](https://img.shields.io/badge/agent%20tools%20%E2%86%92-6d6a58?style=for-the-badge&labelColor=6d6a58)](https://github.com/DaoBrewAI/daobrew-wellness-mcp)
 
 </div>
 
 &nbsp;
 
-## 🌿 &nbsp;What this is
+## What we are building
 
-Most "wellness" stops at *interpretation* — here is your HRV, here is your stress score, good luck. **We close the loop.**
+**DaoBrew is a Causal Task Manager.**
 
-DaoBrew reads your wearable, classifies your current stress pattern, and runs a 3-minute music-guided breathing session that brings your nervous system back online.
+Most task managers know deadlines, priorities, and projects. Wearables know your body. DaoBrew connects the two: it looks for the recurring work loop your body keeps reacting to, turns that loop into a task package, routes it to the work surface or agent you already use, and leaves the outcome honestly marked **verify pending** until the next comparable event.
 
-**Detect → Intervene → Measure.** No mantras, no narrators, no tutorials.
+> The task manager that knows which work your body keeps reacting to.
 
-> Wearables tell you *how you are*. We tell your body *how to come back*.
+We are not building another calendar grid, recovery dashboard, content library, or all-purpose coding agent.
 
-&nbsp;
-
-## 🫁 &nbsp;The core — music-guided resonance breathing
-
-> The active ingredient in stress relief is breathing at 4–7 breaths per minute, sustained for five minutes. Everything else exists to make that happen — without you having to think about it.
-
-Music-guided resonance breathing is the entire product. The music's volume swells pace your inhale and exhale at your personal resonance frequency. With headphones, a theta binaural layer fades in. Apple Watch streams your heart rate and the session re-tunes itself mid-stream. By the time the music fades out, your HRV has measurably shifted.
-
-**Why this approach, not the alternatives:**
-
-- Generic meditation apps are content libraries. We are an intervention engine. Calm and Headspace can't tell you what to do *right now, given your current state* — we can.
-- Wearables (WHOOP, Oura, Apple Watch) are sensors. We are the action layer they were missing. We complement them; we don't compete.
-- LLM-based "AI health coaches" got walked back across the industry in 2025–26 for liability reasons. Specialized, deterministic intervention is the platform-native answer.
-
-The session is 3 minutes because that is the gap between async agent runs, between meetings, between the email you just got and the one you're about to send. Recovery infrastructure has to fit the 2026 high performer — not the other way around.
+We are building the layer between body signals and unfinished work.
 
 &nbsp;
 
-## 🔓 &nbsp;Open source
+## Product loop
 
-We ship the engine three ways: a consumer iOS app, a B2B SDK for hardware partners, and **everything that benefits the developer community, in the open.**
+```text
+body signal + work context
+        ↓
+root-loop candidate
+        ↓
+task package
+        ↓
+your agent / calendar / issue tracker / work surface
+        ↓
+handled, not verified
+        ↓
+next comparable event
+```
+
+The important difference is the endpoint. A normal task manager stops at "done." DaoBrew keeps the proof honest: handled work is not claimed as solved until the next similar event gives the body a chance to respond.
+
+&nbsp;
+
+## Why this is different from task managers
+
+| Existing category | What it is good at | What DaoBrew adds |
+| --- | --- | --- |
+| AI schedulers | Decide when work should happen. | Decide which recurring work loop is costing your body. |
+| Issue trackers | Keep teams aligned around tasks, projects, and roadmaps. | Package the body-flagged loop into something a real work surface can close. |
+| Wearables | Measure readiness, strain, HRV, sleep, and recovery. | Turn the signal into a closeable task instead of another dashboard. |
+| AI agents | Execute bounded work when given context and permission. | Supply the task package, route policy, and verification state. |
+
+DaoBrew does not replace Motion, Linear, GitHub, Claude Code, Codex, or Cursor. It decides what deserves to be routed there.
+
+&nbsp;
+
+## Public repos
+
+The public side of DaoBrew is the reusable agent tooling we can share without exposing personal data, product internals, or proprietary signal models.
 
 <table>
   <thead>
     <tr>
       <th align="left">Repository</th>
-      <th align="left">What it is</th>
-      <th align="left">Stack</th>
+      <th align="left">What it is for</th>
+      <th align="left">Start here when...</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>
-        <a href="https://github.com/DaoBrewAI/daobrew-wellness-mcp"><b><code>daobrew-wellness-mcp</code></b></a>
+        <a href="https://github.com/DaoBrewAI/building-in-public"><b><code>building-in-public</code></b></a>
       </td>
-      <td>The first wellness MCP server in production. Lets any agent — Claude Code, Cursor, Windsurf, Cline — detect stress and trigger a recovery session without leaving the editor.</td>
-      <td><sub><code>TypeScript · MCP</code></sub></td>
+      <td>Reusable skills, prompts, and operating systems we use while building DaoBrew.</td>
+      <td>You want practical agent workflows, including <code>finding-your-unknowns</code> and <code>codex-loop-engineering</code>.</td>
     </tr>
     <tr>
       <td>
-        <a href="https://github.com/DaoBrewAI/building-in-public"><b><code>building-in-public</code></b></a>
+        <a href="https://github.com/DaoBrewAI/daobrew-wellness-mcp"><b><code>daobrew-wellness-mcp</code></b></a>
       </td>
-      <td>Claude Skills we built for ourselves and shipped publicly: <code>bazi-reader</code>, <code>design-language-translator</code>, with more landing as they prove out.</td>
-      <td><sub><code>Claude Skills</code></sub></td>
+      <td>Public MCP tooling for DaoBrew-style agent actions. The repo name is historical; the useful surface is now the agent bridge and Detonator-style task routing demo.</td>
+      <td>You want to see how an agent can read a bounded state, schedule a block, route a task package, and mark the loop done / pending verification.</td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/DaoBrewAI/.github"><b><code>.github</code></b></a>
+      </td>
+      <td>This organization profile.</td>
+      <td>You want the current public map of DaoBrew.</td>
     </tr>
   </tbody>
 </table>
 
-### `@daobrew/wellness-mcp` &nbsp;— &nbsp;the agent-native action layer
+&nbsp;
 
-```bash
-npm install -g @daobrew/wellness-mcp
-```
+## What to try first
 
-When Claude Code sees you've been debugging for 90 minutes and your HRV just dropped, the right answer is for the agent to call a wellness tool — not to suggest you "take a break." MCP governance moved to the Linux Foundation in late 2025; this is the architecture going forward. We were the first wellness company to ship there.
+- **[`finding-your-unknowns`](https://github.com/DaoBrewAI/building-in-public/tree/main/finding-your-unknowns)** — a Claude Code skill that makes an agent surface task uncertainty before it starts building: goal frame, ranked hypotheses, discriminators, down-ranked blindspots, and deferred questions.
+- **[`codex-loop-engineering`](https://github.com/DaoBrewAI/building-in-public/tree/main/codex-loop-engineering)** — a Codex loop system for long-running implementation work: local goal, tracker, constraints, handoff, verification, and continuation hygiene.
+- **[`daobrew-wellness-mcp`](https://github.com/DaoBrewAI/daobrew-wellness-mcp)** — the public MCP bridge and demo surface. The repo name predates the current positioning; the useful direction is the agent-native route layer: read state, package work, act, and leave proof pending.
 
-### Claude Skills &nbsp;— &nbsp;tooling that didn't exist, packaged and given back
+&nbsp;
 
-Building DaoBrew required AI tooling that didn't exist. Rather than keep it internal, we package them as installable [Claude Skills](https://docs.claude.com/en/docs/build-with-claude/agent-skills):
+## Open-source boundary
 
-- **[`bazi-reader`](https://github.com/DaoBrewAI/building-in-public/blob/main/bazi-reader.skill)** — accurate Four Pillars chart generation, including monthly forecast. Handles edge cases (solar terms, zi-hour rollover) that LLMs alone get wrong.
-- **[`design-language-translator`](https://github.com/DaoBrewAI/building-in-public/blob/main/design-language-translator.skill)** — converts founder-grade visual intent ("make it more 禅", "this feels off") into a precise designer brief, bilingual EN↔CN.
-- **More planned** — pulse waveform feature extraction, TCM stress pattern classification reference implementations.
+We open-source the parts that help builders work with agents better:
 
-### Where we draw the line
+- skills and prompts that improve agent behavior,
+- MCP / tool examples that show how agents can route bounded work,
+- public demos of the task-package loop,
+- operating docs that make long-running agent work more reliable.
 
-What helps the AI-native developer ecosystem stay healthy belongs in the commons. The prescription engine, the personal baseline calibration, and the proprietary pulse models trained on 200K+ annotated sessions stay closed. The line is intentional and clear.
+We do not publish personal health data, personal baselines, proprietary signal models, or closed product internals.
 
 &nbsp;
 
 <div align="center">
-  <sub><i>If your nervous system runs hot, you are the user.</i></sub>
+  <sub><i>Find the loop. Route the task. Verify later.</i></sub>
 </div>
