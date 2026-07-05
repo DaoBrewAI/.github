@@ -18,34 +18,24 @@
 
 &nbsp;
 
-## Building a body-aware task layer for agentic work
+<div align="center">
+  <h3>Body-aware task infrastructure for agentic work.</h3>
+</div>
 
-DaoBrew AI connects **body signals** with **work context** so software can notice the recurring work your body keeps flagging, package it into something actionable, and route it to the tools where work already happens.
+DaoBrew AI is building a **Causal Task Manager**: a work layer that connects body signals with project context, spots the loops that keep costing state, and turns the next useful move into a task package for people and agents.
 
-Our current product direction is a **Causal Task Manager**: a layer that helps decide which work loop deserves attention next.
-
-The company is early. This GitHub organization is where we share the agent infrastructure, skills, and build systems that are useful outside the product itself.
-
-&nbsp;
-
-## Thesis
-
-| Shift | What it means for DaoBrew |
-| --- | --- |
-| Work is moving from apps you operate to agents you direct. | Tasks need richer context, sharper handoffs, and clearer verification. |
-| Task managers rank work by deadline, priority, or calendar space. | Body signals can add a missing priority layer: what keeps costing you state. |
-| Wearables surface patterns but rarely close the loop. | The useful endpoint is a routed task package. |
+This GitHub organization is the public engineering surface for that work: reusable agent skills, MCP experiments, and build systems developed while building DaoBrew.
 
 &nbsp;
 
-## Public work
+## Public projects
 
 <table>
   <thead>
     <tr>
       <th align="left">Project</th>
       <th align="left">What it is</th>
-      <th align="left">Why it matters</th>
+      <th align="left">Start here</th>
     </tr>
   </thead>
   <tbody>
@@ -53,26 +43,32 @@ The company is early. This GitHub organization is where we share the agent infra
       <td>
         <a href="https://github.com/DaoBrewAI/building-in-public"><b><code>building-in-public</code></b></a>
       </td>
-      <td>Reusable agent skills, prompts, and workflow systems from DaoBrew R&amp;D.</td>
-      <td>Practical tools for making coding agents better at discovery, planning, review, and continuation.</td>
+      <td>Reusable agent skills, prompts, and workflow systems from DaoBrew product work.</td>
+      <td><a href="https://github.com/DaoBrewAI/building-in-public/tree/main/finding-your-unknowns"><code>finding-your-unknowns</code></a> and <a href="https://github.com/DaoBrewAI/building-in-public/tree/main/codex-loop-engineering"><code>codex-loop-engineering</code></a></td>
     </tr>
     <tr>
       <td>
         <a href="https://github.com/DaoBrewAI/daobrew-wellness-mcp"><b><code>daobrew-wellness-mcp</code></b></a>
       </td>
       <td>MCP experiments for body-aware agent actions and task-package routing demos.</td>
-      <td>Shows how an agent can read bounded state, route work, produce an artifact, and leave proof pending.</td>
+      <td>Public agent bridge and task-routing examples.</td>
     </tr>
   </tbody>
 </table>
 
 &nbsp;
 
-## Start with these
+## Featured work
 
-- **[`finding-your-unknowns`](https://github.com/DaoBrewAI/building-in-public/tree/main/finding-your-unknowns)** — a Claude Code skill that makes agents surface task unknowns before they start building.
-- **[`codex-loop-engineering`](https://github.com/DaoBrewAI/building-in-public/tree/main/codex-loop-engineering)** — a Codex skill for long-running implementation loops with goal, tracker, constraints, handoff, and verification.
-- **[`daobrew-wellness-mcp`](https://github.com/DaoBrewAI/daobrew-wellness-mcp)** — the public MCP surface for agent actions and task-routing demos.
+- **[`finding-your-unknowns`](https://github.com/DaoBrewAI/building-in-public/tree/main/finding-your-unknowns)** maps known knowns, known unknowns, unknown knowns, and unknown unknowns before a coding agent commits to a plan.
+- **[`codex-loop-engineering`](https://github.com/DaoBrewAI/building-in-public/tree/main/codex-loop-engineering)** gives long-running Codex work a durable goal, tracker, constraints file, handoff, and verification loop.
+- **[`daobrew-wellness-mcp`](https://github.com/DaoBrewAI/daobrew-wellness-mcp)** shows how body-aware context can be exposed to agents through a bounded MCP surface.
+
+&nbsp;
+
+## Product direction
+
+Most task tools organize work after someone has already named it. DaoBrew adds another signal: the recurring work loops your body keeps flagging while work is happening. The output we care about is a concrete task package with context, constraints, and proof.
 
 &nbsp;
 
